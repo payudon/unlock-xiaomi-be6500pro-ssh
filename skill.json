@@ -1,0 +1,103 @@
+{
+  "name": "unlock-xiaomi-be6500pro-ssh",
+  "version": "1.0.0",
+  "description": "解锁小米路由器 BE6500 Pro SSH 并安装 ShellCrash 实现科学上网的完整指南",
+  "author": "QClaw Assistant",
+  "repository": {
+    "type": "file",
+    "url": "C:\\Users\\47111\\.qclaw\\workspace\\unlock-xiaomi-be6500pro-ssh_SKILL.md"
+  },
+  "keywords": [
+    "xiaomi",
+    "router",
+    "ssh",
+    "be6500pro",
+    "shellcrash",
+    "科学上网",
+    "解锁"
+  ],
+  "category": "network",
+  "compatibility": {
+    "openclaw": ">=0.2.0",
+    "node": ">=16.0.0",
+    "os": ["windows", "macos", "linux"]
+  },
+  "dependencies": {
+    "tools": [
+      "curl",
+      "ssh",
+      "telnet"
+    ],
+    "skills": []
+  },
+  "installation": {
+    "method": "manual",
+    "steps": [
+      "确保已获取小米路由器 BE6500 Pro",
+      "下载并保存本 Skill 到工作区",
+      "按照 SKILL.md 中的步骤逐步操作"
+    ]
+  },
+  "usage": {
+    "trigger": [
+      "解锁小米路由器 SSH",
+      "BE6500 Pro 开启 SSH",
+      "安装 ShellCrash",
+      "路由器科学上网"
+    ],
+    "examples": [
+      "帮我解锁小米 BE6500 Pro 路由器的 SSH",
+      "如何在小米路由器上安装 ShellCrash"
+    ]
+  },
+  "metadata": {
+    "difficulty": "intermediate",
+    "time_required": "30-60 minutes",
+    "risk_level": "high",
+    "last_verified": "2026-06-27",
+    "language": "zh-CN",
+    "license": "CC BY-NC-SA 4.0"
+  },
+  "related_links": [
+    {
+      "name": "秘钥计算器（主）",
+      "url": "https://www.oxygen7.cn/miwifi/"
+    },
+    {
+      "name": "秘钥计算器（备）",
+      "url": "https://miwifi.dev/ssh"
+    },
+    {
+      "name": "ShellCrash 官方文档",
+      "url": "https://github.com/juewuy/ShellClash/blob/master/README_CN.md"
+    },
+    {
+      "name": "固件下载",
+      "url": "https://dl.viimg.com/gaicas/miwifi-rom/miwifi_rd08_firmware_076b5_1.0.46.bin"
+    }
+  ],
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "date": "2026-06-27",
+      "changes": [
+        "初始版本发布",
+        "修复秘钥计算器链接（原链接失效）",
+        "验证所有关键链接有效性",
+        "添加详细操作步骤和常见问题"
+      ]
+    }
+  ],
+  "warnings": [
+    "⚠️ 解锁设备有风险，操作不当可能导致设备变砖",
+    "⚠️ 请确保电源稳定，避免操作过程中断电",
+    "⚠️ 固件升级后可能丢失 SSH 权限，需重新开启",
+    "⚠️ 请严格按照教程步骤执行，不要跳过或随意修改命令"
+  ],
+  "maintainers": [
+    {
+      "name": "QClaw Assistant",
+      "email": "assistant@qclaw.ai"
+    }
+  ]
+}
